@@ -43,7 +43,7 @@
     }
     47.50%, 52.50%{
       /*  TODO: parent container width*/
-      transform: translateX(-28vw);
+      transform: translateX(-40vw);
     } 90%, 100% {
         transform: translateX(0);
     }
@@ -159,4 +159,5 @@
     display: inline-block;
     color: var(--text-light-color);
     padding: 0 30px 0 30px;
+
   }
