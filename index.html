@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width-device-width, initial-scale=1.0" />
+    <title>Anthony Romano's Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&family=Red+Hat+Display&family=Signika+Negative&family=Yusei+Magic&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="app-container">
+        <section id="about">
+            <h1>Hi, I'm Anthony!</h1>
+            <p>Your local pun master + digital artist</p>
+            <p>Here's just a bit of what I've done:</p>
+        </section>
+        <div id="portfolio">
+
+            <div class="scroll-container">
+                <img src="Untitled_Artwork.png" alt="SassyGecko Gaming" onclick="myFunction(this);">
+                <img src="Untitled_Artwork2.png" alt="Night Terrors" onclick="myFunction(this);">
+                <img src="Untitled_Artwork3.png" alt="Something Fishy" onclick="myFunction(this);">
+                <img src="Untitled_Artwork6.png" alt="A Ghostly Cowgirl" onclick="myFunction(this);">
+                <img src="Untitled_Artwork7.png" alt="Empty" onclick="myFunction(this);">
+                <img src="Untitled_Artwork8.png" alt="Nuzlocke Ep 1" onclick="myFunction(this);">
+                <img src="Untitled_Artwork9.png" alt="Shoreline" onclick="myFunction(this);">
+                <img src="Untitled_Artwork10.png" alt="Gnome Miner" onclick="myFunction(this);">
+                <img src="Untitled_Artwork11.png" alt="Diver Meets a Curious Mermaid" onclick="myFunction(this);">
+                <img src="Untitled_Artwork12.png" alt="Nuzlocke Ep 2" onclick="myFunction(this);">
+                <img src="Untitled_Artwork15.png" alt="Nuzlocke Ep 3" onclick="myFunction(this);">
+                <img src="Untitled_Artwork14.png" alt="Bunny" onclick="myFunction(this);">
+            </div>
+
+            <!-- The expanding image container -->
+            <div id="expanding-img-container">
+                <!-- Close the image -->
+                <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+            
+                <!-- Expanded image -->
+                <img id="expandedImg" style="width:100%">
+            
+                <!-- Image text -->
+                <div id="imgInfo">
+                    <img id="imgIcon" src="image.jpg" alt="An excellent job candidate!">
+                    <div id="textBox">
+                        <div id="imgText">img alt text</div>
+                        <div id="imgSubTitle">Anthony Romano ✓</div>
+                        <div id="imgLastText">117K views • 1 day ago</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <section id="contact">
+        <h3>Contact</h3>
+            <a href="https://www.linkedin.com/in/anthonyromano7/" target="_blank">LinkedIn</a>
+            <a href="mailto:anthonyromano1996@gmail.com" target="_blank">AnthonyRomano1996@gmail.com</a>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
